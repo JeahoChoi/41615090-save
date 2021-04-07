@@ -67,16 +67,19 @@ body {
 
 .ms1 {
   padding: 0;
+  width: 960px;
+  height: 400px;
 }
 
 .ms1
-  li {
+  .s1 {
   background-color: blanchedalmond;
   list-style: none;
   float: left;
-  margin-left: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
   width: 310px;
-  height: 300px;
+  height: 350px;
   text-align: center;
   border-radius: 80px
     80px
@@ -84,9 +87,29 @@ body {
     80px;
 }
 
+.ms1
+  div {
+  float: left;
+}
+
 .stick {
   margin-left: 60px;
   width: 200px;
   height: 10px;
   background-color: black;
+}
+
+.main-aside {
+  width: 320px;
+  height: 500px;
+  margin-left: 320px;
+}
+.main-aside
+  img {
+  margin-left: 42.5px;
+}
+
+.main-footer {
+  color: white;
+  text-align: center;
 }
