@@ -6,16 +6,6 @@ body {
   width: 960px;
 }
 
-.ms1
-  p {
-  font-weight: bold;
-}
-
-.ms1
-  h3 {
-  font-style: italic;
-}
-
 .main-header {
   margin-left: 80px;
   text-align: center;
@@ -69,6 +59,16 @@ body {
   padding: 0;
   width: 960px;
   height: 400px;
+}
+
+.ms1
+  p {
+  font-weight: bold;
+}
+
+.ms1
+  h3 {
+  font-style: italic;
 }
 
 .ms1
