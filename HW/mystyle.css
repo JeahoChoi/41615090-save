@@ -15,10 +15,7 @@ body {
   border: 3px
     solid
     black;
-  border-radius: 20px
-    20px
-    20px
-    20px;
+  border-radius: 20px;
 }
 
 .main-navigation {
@@ -80,15 +77,7 @@ body {
   width: 310px;
   height: 350px;
   text-align: center;
-  border-radius: 80px
-    80px
-    80px
-    80px;
-}
-
-.ms1
-  div {
-  float: left;
+  border-radius: 80px;
 }
 
 .stick {
