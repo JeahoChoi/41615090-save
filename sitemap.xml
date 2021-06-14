@@ -7,32 +7,26 @@
 <!-- www.check-domains.com sitemap generator -->
 
 <url>
-   <loc>https://aduino-mania.netlify.app/</loc>
-   <lastmod>2021-06-14T12:59:58+00:00</lastmod>
+   <loc>https://arduino-mania.netlify.app/</loc>
+   <lastmod>2021-06-14T15:37:32+00:00</lastmod>
    <changefreq>monthly</changefreq>
    <priority>1.0000</priority>
 </url>
 <url>
-   <loc>https://aduino-mania.netlify.app/home</loc>
-   <lastmod>2021-06-14T12:59:58+00:00</lastmod>
+   <loc>https://arduino-mania.netlify.app/arduino</loc>
+   <lastmod>2021-06-14T15:37:32+00:00</lastmod>
    <changefreq>monthly</changefreq>
    <priority>0.6400</priority>
 </url>
 <url>
-   <loc>https://aduino-mania.netlify.app/arduino</loc>
-   <lastmod>2021-06-14T12:59:58+00:00</lastmod>
+   <loc>https://arduino-mania.netlify.app/module</loc>
+   <lastmod>2021-06-14T15:37:32+00:00</lastmod>
    <changefreq>monthly</changefreq>
    <priority>0.6400</priority>
 </url>
 <url>
-   <loc>https://aduino-mania.netlify.app/module</loc>
-   <lastmod>2021-06-14T12:59:58+00:00</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>0.6400</priority>
-</url>
-<url>
-   <loc>https://aduino-mania.netlify.app/info</loc>
-   <lastmod>2021-06-14T12:59:58+00:00</lastmod>
+   <loc>https://arduino-mania.netlify.app/info</loc>
+   <lastmod>2021-06-14T15:37:32+00:00</lastmod>
    <changefreq>monthly</changefreq>
    <priority>0.6400</priority>
 </url>
