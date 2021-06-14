@@ -2,4 +2,4 @@ User-agent: *
 Allow:/
 Allow: /your-javascript-url
 Allow: /your-css-url
-Sitemap: https://aduino-mania.netlify.app/sitemap.xml
+Sitemap: https://arduino-mania.netlify.app/sitemap.xml
