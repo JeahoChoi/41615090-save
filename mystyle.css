@@ -1,105 +1,307 @@
+/*공통*/
+* {
+  padding: 0;
+  margin: 0;
+}
 body {
-  background-color: skyblue;
   margin: 0
     auto;
-  margin-top: 120px;
   width: 960px;
+  background-color: rgb(
+    199,
+    199,
+    199
+  );
+  background-image: url("./image/background1.png");
+  background-size: 10%;
 }
-
-.main-header {
-  margin-left: 80px;
+#title
+  h1 {
   text-align: center;
+  margin: 20px
+    320px;
+  height: 60px;
+  width: 320px;
+  line-height: 60px;
+  font-size: 45px;
+  font-family: "Times New Roman",
+    Times,
+    serif;
+  border: 3px
+    dashed
+    rgb(
+      0,
+      129,
+      132
+    );
+  border-radius: 10px
+    0px
+    10px
+    0px;
+}
+#list {
+  height: 60px;
+  width: 100%;
+  border-radius: 10px
+    10px
+    0px
+    0px;
+  background-color: rgb(
+    0,
+    129,
+    132
+  );
+}
+#list
+  #tag {
+  height: 55px;
+  width: 100px;
+  margin: 2.5px
+    110px;
+  float: left;
+  text-align: center;
+  line-height: 55px;
+  font-size: 20px;
+}
+#list
+  a:link {
+  color: wheat;
+}
+#list
+  a:visited {
+  color: wheat;
+}
+#tag:hover {
   background-color: white;
-  width: 800px;
-  height: 140px;
+  color: rgb(
+    0,
+    129,
+    132
+  );
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.not {
+  color: rgb(
+    0,
+    129,
+    132
+  );
+  background-color: white;
+}
+#main {
+  width: 960px;
+  background-color: rgba(
+    0,
+    129,
+    132,
+    10%
+  );
+}
+/*공통*/
+/*HOME*/
+#image {
+  height: 600px;
+  width: 600px;
+  float: left;
+}
+#cut {
+  height: 600px;
+  width: 600px;
+  margin-left: 30px;
+  margin-top: -30px;
+  border: 8px
+    solid
+    rgb(
+      0,
+      129,
+      132
+    );
+  border-radius: 300px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+#aside {
+  height: 600px;
+  width: 320px;
+  float: right;
+}
+#aside
+  p {
+  margin-top: 200px;
+  font-size: 28px;
+  text-align: center;
+  font-family: "Trebuchet MS",
+    "Lucida Sans Unicode",
+    "Lucida Grande",
+    "Lucida Sans",
+    Arial,
+    sans-serif;
+}
+/*HOME*/
+/*Arduino, Module*/
+#side_list {
+  display: inline-block;
+  background-color: rgb(
+    0,
+    129,
+    132
+  );
+  width: 300px;
+  height: 100%;
+}
+#ar_list {
+  position: sticky;
+  top: 100px;
+  margin: 60px
+    0px
+    0px
+    60px;
+  font-size: 20px;
+  font-family: Verdana,
+    Geneva,
+    Tahoma,
+    sans-serif;
+  color: wheat;
+}
+#all_list
+  li {
+  height: 40px;
+  margin: 10px
+    0px;
+  line-height: 40px;
+}
+#cont
+  li {
+  height: 30px;
+  width: 200px;
+  line-height: 30px;
+  margin-left: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: rgb(
+    194,
+    206,
+    124
+  );
+  border-radius: 5px;
+}
+#cont
+  li:hover {
+  background-color: white;
+  color: black;
+}
+/*contents*/
+#contents {
+  background-color: white;
   border: 3px
     solid
     black;
-  border-radius: 20px;
+  border-radius: 8px;
+  height: auto;
+  width: 600px;
+  display: block;
+  float: right;
+  margin: 10px
+    25px;
 }
-
-.main-navigation {
-  margin-top: 80px;
+#section {
+  margin: 10px
+    0px;
+  width: 100%;
+  height: auto;
+}
+#name2 {
+  font-size: 30px;
+  font-family: Verdana,
+    Geneva,
+    Tahoma,
+    sans-serif;
+  margin: 50px
+    0px
+    0px
+    30px;
+}
+#image2 {
+  width: 290px;
+  height: 200px;
+  display: flex;
+  overflow: hidden;
+  float: left;
   margin-bottom: 40px;
 }
-
-.cut {
-  margin-bottom: 50px;
-}
-
-.navi1 {
-  padding: 0;
-}
-
-.navi1
-  li {
-  list-style: none;
-  float: left;
-  width: 320px;
-  height: 55px;
-  text-align: center;
-}
-
-.navi2 {
-  overflow: hidden;
-  padding: 0;
-}
-.navi2
-  li {
-  list-style: none;
-  float: left;
-  width: 320px;
-  text-align: center;
-}
-
-.ms1 {
-  padding: 0;
-  width: 960px;
-  height: 400px;
-}
-
-.ms1
-  p {
+#article1 {
+  font-size: 16px;
   font-weight: bold;
+  font-family: monospace;
+  margin-top: 30px;
+  display: block;
 }
-
-.ms1
-  h3 {
-  font-style: italic;
+#spec {
+  display: block;
+  margin-left: 50px;
 }
-
-.ms1
-  .s1 {
-  background-color: blanchedalmond;
-  float: left;
-  margin-left: 5px;
-  margin-right: 5px;
-  width: 310px;
-  height: 350px;
+#TOP {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  height: 60px;
+  width: 60px;
+  line-height: 60px;
   text-align: center;
-  border-radius: 80px;
+  background-color: rgba(
+    128,
+    128,
+    128,
+    50%
+  );
+  border-radius: 10px;
+  color: rgba(
+    218,
+    218,
+    218,
+    0.5
+  );
 }
-
-.stick {
-  margin-left: 60px;
-  width: 200px;
-  height: 10px;
-  background-color: black;
+/*Arduino, Module*/
+/*Info*/
+#mainc {
+  width: 900px;
+  margin: 0px
+    30px;
+  background-color: white;
+  border: 3px
+    solid
+    rgb(
+      0,
+      129,
+      132
+    );
+  border-radius: 20px;
 }
-
-.main-aside {
-  width: 320px;
-  height: 500px;
-  margin-left: 320px;
+#main2 {
+  font-size: 18px;
+  width: 860px;
+  margin: 10px
+    20px;
 }
-
-.main-aside
-  img {
-  margin-left: 42.5px;
-  border-radius: 30px;
+#name {
+  width: 190px;
+  height: 50px;
+  margin: 5px
+    0px;
+  line-height: 50px;
+  display: inline-block;
 }
-
-.main-footer {
-  color: white;
-  text-align: center;
+#colon {
+  display: inline-block;
 }
+#con {
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+}
+/*Info*/

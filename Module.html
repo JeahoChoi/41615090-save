@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArduinoMania-Module</title>
+    <link rel="stylesheet" href="mystyle.css">
+    <style>
+        #main{
+            height:1910px;
+        }
+    </style>
+</head>
+<body>
+    <div id="title">
+        <a href="HOME.html"><div><h1>Arduino Mania</h1></div></a>
+    </div>
+    <div id="list">
+        <a href="Arduino.html"><div id="tag">Arduino</div></a>
+        <a href="#"><div id="tag" class="not">Module</div></a>
+        <a href="Info.html"><div id="tag">Info</div></a>
+    </div>
+    <div id="main">
+        <div id="side_list">
+            <div id="ar_list">
+                <ul id="all_list">
+                    <li>Motor</li>
+                    <ul id="cont">
+                        <a href="#1"><li>SG90</li></a>
+                        <a href="#2"><li>MG995</li></a>
+                        <a href="#3"><li>L298N</li></a>
+                    </ul>
+                    <li>Sensor</li>
+                    <ul id="cont">
+                        <a href="#4"><li>DHT11/22(온도)</li></a>
+                        <a href="#5"><li>HC-SR04(초음파)</li></a>
+                    </ul >
+                    <li>Bluetooth</li>
+                    <ul id="cont">
+                        <a href="#6"><li>HC-06</li></a>
+                    </ul >
+                </ul>
+            </div>
+        </div>
+        <div id="contents">
+            <span id="1"></span>
+            <div id="section">
+                <div id="name2">SG90</div>
+                <div id="image2"><img src="./image/21.jpg"></div>
+                <div id="article">교육용으로 많이 사용하는 소형 서보모터 입니다.<br>소형이고 가볍지만 토크가 많이 약해 응용해서 사용하기는 힘듭니다.<br><br><br></div>
+                <div id="spec">동작 전압 : 4.8 ~ 7.8V</div>
+                <div id="spec">소비 전류 : 0.2 ~ 0.7A</div>
+                <div id="spec">회전 각도 : 0 ~ 180도</div>
+                <div id="spec">토크 : 1.8kg*cm</div>
+            </div>
+            <span id="2"></span>
+            <div id="section">
+                <div id="name2">MG995</div>
+                <div id="image2"><img src="./image/22.jpg"></div>
+                <div id="article">메탈기어를 이용한 소형 서보모터입니다.<br>토크가 강하여 여러가지로 응용할 수 있습니다.<br>무게가 조금 무거운편이며,소비 전류가 높아 보드 전원 만으로는 작동하는데 힘들기 때문에 외부전원을 반드시 연결해야 합니다.<br><br></div>
+                <div id="spec">동작 전압 : 4.8 ~ 7.8V</div>
+                <div id="spec">소비 전류 : 0.5 ~ 0.9A</div>
+                <div id="spec">회전 각도 : 0 ~ 180도</div>
+                <div id="spec">토크 : 9.4kg*cm(4.8V), 11kg*cm(6V)</div>
+            </div>
+            <span id="3"></span>
+            <div id="section">
+                <div id="name2">L298N</div>
+                <div id="image2"><img src="./image/23.jpg"></div>
+                <div id="article">보편적으로 아두이노에서 많이 사용하는 DC모터 드라이버 입니다.<br>아두이노에 DC모터를 직접 연결하여 작동시키는 것은 여러모로 불편하기 때문에 드라이버를 이용하여 사용합니다.<br>추가로 스텝 모터도 제어할 수 있습니다.<br><br><br></div>
+                <div id="spec">입력 전압 : 5 or 12V</div>
+                <div id="spec">허용 전류 : 2A(MAX)</div>
+            </div>
+            <span id="4"></span>
+            <div id="section">
+                <div id="name2">DHT11/22</div>
+                <div id="image2"><img src="./image/24.png"></div>
+                <div id="article">정전식 대기 온습도 측정 센서 입니다.<br>주로 온도측정에 사용하며 DHT11(우) 보다는 DHT22(좌)가 정밀도가 높습니다.<br><br><br><br><br></div>
+                <div id="spec">동작 전압 : 5V/(3.3 ~ 5V)</div>
+                <div id="spec">온도 : 0 ~ 50℃(±2℃)/-40 ~ 80℃(±0.5℃)</div>
+                <div id="spec">습도 : 20 ~ 80%(±5%)/0 ~ 100%(±2%)</div>
+            </div>
+            <span id="5"></span>
+            <div id="section">
+                <div id="name2">HC-SR04</div>
+                <div id="image2"><img src="./image/25.png"></div>
+                <div id="article">초음파를 이용한 거리측정 센서 입니다.<br>단단한 물체는 100%반사되어 거리측정이 잘 되지만, 옷감 처럼 부드러운 소제들의 거리는 측정값이 정확하지 않습니다.<br>정밀도가 높은 P14라는 상위모델도 있습니다.<br><br><br></div>
+                <div id="spec">입력 전압 : 5V</div>
+                <div id="spec">허용 전류 : 15mA</div>
+                <div id="spec">측정 범위 : 2cm ~ 4M</div>
+                <div id="spec">측정 각도 : 15도</div>
+            </div>
+            <span id="6"></span>
+            <div id="section">
+                <div id="name2">HC-06</div>
+                <div id="image2"><img src="./image/26.jpg"></div>
+                <div id="article">Bluetooth를 사용할 수 있게 해주는 블루투스 모듈 입니다.<br>핸드폰등 다양한 블루투스 기기에 연결이 가능합니다<br>저전력으로 기동하지만 통신속도가 느립니다. <br><br><br></div>
+                <div id="spec">동작 전압 : 3.3V</div>
+                <div id="spec">동작 전류 : 40mA</div>
+            </div>
+        </div>
+    </div>
+    <a href="#title"><div id="TOP">TOP</div></a>
+</body>
+</html>

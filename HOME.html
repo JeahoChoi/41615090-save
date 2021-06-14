@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArduinoMania-HOME</title>
+    <link rel="stylesheet" href="mystyle.css">
+    <style>
+        #main{
+            height:82.7vh;
+            overflow:hidden;
+        }
+    </style>
+    <script>
+        var imgArray=new Array();
+        imgArray[0]="./image/Ar1.jpg";
+        imgArray[1]="./image/Ar2.jpg";
+        imgArray[2]="./image/Ar3.jpg";
+        imgArray[3]="./image/Ar4.jpg";
+        imgArray[4]="./image/Ar5.jpg";
+
+        function showImage(){
+            var imgNum=Math.round(Math.random()*4);
+            var objImg=document.getElementById("change");
+            objImg.src=imgArray[imgNum];
+            setTimeout("showImage()",3000);
+        }
+        window.onload=function(){
+            showImage();
+        }
+    </script>
+</head>
+<body onload="showImage()">
+    <div id="title">
+        <a href="HOME.html"><div><h1>Arduino Mania</h1></div></a>
+    </div>
+    <div id="list">
+        <a href="Arduino.html"><div id="tag">Arduino</div></a>
+        <a href="Module.html"><div id="tag">Module</div></a>
+        <a href="Info.html"><div id="tag">Info</div></a>
+    </div>
+    <div id="main">
+        <div id="image">
+            <div id="cut"><img id="change" src="./image/Ar1.jpg" alt=""></div>
+        </div>
+        <div id="aside">
+            <p><i>아두이노를 알고 싶은<br>사람들의 장소<br>"<span style="color:rgb(0,129,132)">Arduino Mania</span>"에 <br>어서오세요!</i></p>
+        </div>
+    </div>
+</body>
+</html>
