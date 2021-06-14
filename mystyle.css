@@ -305,3 +305,77 @@ a {
   display: inline-block;
 }
 /*Info*/
+@media screen and (max-width: 767px) {
+  body {
+    width: auto;
+    overflow: visible;
+    -ms-overflow-style: none;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  #main {
+    width: auto;
+    float: none;
+    overflow: auto;
+  }
+  #title {
+    width: auto;
+    float: none;
+    margin: 0;
+    padding: 0;
+  }
+  #title
+    h1 {
+    width: auto;
+    float: none;
+    margin: 0;
+    padding: 0;
+  }
+  #list {
+    width: auto;
+    height: auto;
+    float: none;
+  }
+  #list
+    #tag {
+    width: auto;
+    float: none;
+  }
+  #image {
+    float: none;
+    height: 400px;
+  }
+  #cut {
+    float: none;
+    width: 400px;
+    height: 400px;
+    border-radius: 200px;
+  }
+  #aside {
+    float: right;
+  }
+  #aside
+    p {
+    margin-top: 15px;
+  }
+  #side_list {
+    display: none;
+  }
+  #contents {
+    margin: 10px;
+    width: auto;
+    float: none;
+  }
+  #mainc {
+    margin: 10px;
+    width: auto;
+    overflow: auto;
+  }
+  #main2 {
+    width: auto;
+  }
+  #con {
+    width: auto;
+  }
+}
