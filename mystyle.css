@@ -233,7 +233,7 @@ a {
   float: left;
   margin-bottom: 40px;
 }
-#article1 {
+#article {
   font-size: 16px;
   font-weight: bold;
   font-family: monospace;
@@ -366,6 +366,15 @@ a {
     margin: 10px;
     width: auto;
     float: none;
+  }
+  #image2 {
+    margin-right: 450px;
+  }
+  #article {
+    margin: 30px
+      10px
+      0px
+      10px;
   }
   #mainc {
     margin: 10px;
